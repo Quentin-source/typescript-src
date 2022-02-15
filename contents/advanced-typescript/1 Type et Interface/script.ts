@@ -87,7 +87,14 @@ automaticResponse(Japanese1);
 //Unknown number of props
 
 interface Group{
-    [name:string] : object
-
+    [name : string] : object
 }
 
+const spainTrip : Group = {
+    john : {id : 1},
+    Tom : {id : 2},
+    Julia : {id : 3},
+    Robert : {id : 4},
+}
+
+console.dir(spainTrip);

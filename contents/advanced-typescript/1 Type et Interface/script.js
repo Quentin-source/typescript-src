@@ -33,3 +33,10 @@ const Japanese1 = {
     food: ['Ramen', "Sushis"],
 };
 automaticResponse(Japanese1);
+const spainTrip = {
+    john: { id: 1 },
+    Tom: { id: 2 },
+    Julia: { id: 3 },
+    Robert: { id: 4 },
+};
+console.dir(spainTrip);
